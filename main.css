@@ -2,13 +2,39 @@ html {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+header span {
+  position: fixed;
+  float: left;
+  top: 0;
+  padding: 10px;
+  background-color: black;
+  width: 100%;
+  height: 75px;
 }
 
-header {
-  padding: 10px;
+nav ul {
+  position: fixed;
+  top: 0;
+  float: right;
+  display: inline-block;
+  margin-left: 75%;
+  margin-top: 30px;
+  padding-left: 0;
+
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 75px;
+  padding: 0;
 }
 
 .brand {
@@ -16,8 +42,14 @@ header {
   font-size: 3em;
 }
 
+.brand a {
+  text-decoration: none;
+  color: white;
+}
+
 .brand a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+
 }
 
 .container {
@@ -28,4 +60,20 @@ header {
 .marketing {
   padding: 10px;
   margin: 1em 0;
+  background-color: gray;
+  color: white;
+  width: 800px;
+}
+
+.features {
+  display: inline;
+}
+
+.features div {
+  width: 200px;
+}
+
+h3 p {
+  display: inline;
+  width: 300px; 
 }
